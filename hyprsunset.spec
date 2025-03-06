@@ -11,6 +11,7 @@ BuildRequires:	pkgconfig(wayland-client)
 BuildRequires:	pkgconfig(wayland-protocols)
 BuildRequires:	pkgconfig(hyprutils)
 BuildRequires:	pkgconfig(hyprwayland-scanner)
+BuildRequires:	pkgconfig(hyprland-protocols)
 
 BuildSystem: cmake
 
