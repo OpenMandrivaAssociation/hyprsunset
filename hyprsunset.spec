@@ -10,8 +10,8 @@ Source0:	%{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(wayland-client)
 BuildRequires:	pkgconfig(wayland-protocols)
 BuildRequires:	pkgconfig(hyprutils)>=0.2.3
-BuildRequires:	pkgconfig(hyprwayland-scanner)>=0.4.0
-BuildRequires:	pkgconfig(hyprland-protocols)>=0.4.0
+BuildRequires:	pkgconfig(hyprwayland-scanner)
+BuildRequires:	pkgconfig(hyprland-protocols)
 
 BuildSystem: cmake
 
