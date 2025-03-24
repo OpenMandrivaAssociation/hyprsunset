@@ -30,3 +30,4 @@ BuildSystem: cmake
 %license LICENSE
 %doc README.md
 %{_bindir}/%{name}
+%{_libdir}/systemd/user/%{name}.service
