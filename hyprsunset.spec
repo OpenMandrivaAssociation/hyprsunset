@@ -20,6 +20,12 @@ BuildSystem: cmake
 %description
 %{summary}
 
+%post
+%systemd_user_post %{name}.service
+
+%preun
+%systemd_user_preun %{name}.service
+
 %files
 %license LICENSE
 %doc README.md
