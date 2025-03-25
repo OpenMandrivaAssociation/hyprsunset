@@ -20,6 +20,10 @@ BuildSystem: cmake
 %description
 %{summary}
 
+%prep
+%autosetup -p1
+sed '/hyprsunset.service/s/${CMAKE_INSTALL_LIBDIR}/lib/' -i CMakeLists.txt
+
 %post
 %systemd_user_post %{name}.service
 
