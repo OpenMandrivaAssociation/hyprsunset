@@ -1,1 +1,0 @@
-RPM spec file for hyprsunset
