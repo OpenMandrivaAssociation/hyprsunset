@@ -12,6 +12,7 @@ BuildRequires:	pkgconfig(wayland-protocols)
 BuildRequires:	pkgconfig(hyprutils)
 BuildRequires:	pkgconfig(hyprwayland-scanner)
 BuildRequires:	pkgconfig(hyprland-protocols)
+BuildRequires:	pkgconfig(hyprlang)
 
 Recommends: pkgconfig(hyprland) >= 0.48.0
 
