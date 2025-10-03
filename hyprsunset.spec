@@ -1,6 +1,6 @@
 Name:		hyprsunset
 Version:	0.3.1
-Release:	1
+Release:	2
 Summary:	An application to enable a blue-light filter on Hyprland
 Group:		Hyprland
 License:	BSD-3-Clause
