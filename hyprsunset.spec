@@ -1,6 +1,6 @@
 Name:		hyprsunset
 Version:	0.3.3
-Release:	4
+Release:	5
 Summary:	An application to enable a blue-light filter on Hyprland
 Group:		Hyprland
 License:	BSD-3-Clause
@@ -14,7 +14,7 @@ BuildRequires:	pkgconfig(hyprwayland-scanner)
 BuildRequires:	pkgconfig(hyprland-protocols)
 BuildRequires:	pkgconfig(hyprlang)
 
-Recommends: pkgconfig(hyprland) >= 0.48.0
+Recommends: hyprland >= 0.48.0
 
 BuildSystem: cmake
 
